@@ -8,7 +8,7 @@ LIRI is like iPhone's SIRI. However, while SIRI is a Speech Interpretation and R
 * node liri.js do-what-it-says
 
 ## What Each Command Should Do
-#### node liri.js movie-this <movie name here>
+#### node liri.js movie-this <movie name here\>
 This will output the following information to your terminal/bash window:
    * Title of the movie.
    * Year the movie came out.
@@ -25,7 +25,7 @@ This will search the Bands in Town Artist Events API for an artist and render th
 * Venue location
 * Date of the Event (use moment to format this as "MM/DD/YYYY")
 
-#### node liri.js spotify-this-song <song name here>
+#### node liri.js spotify-this-song <song name here\>
 This will show the following information about the song in your terminal/bash window
 * Artist(s)
 * The song's name
