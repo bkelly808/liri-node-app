@@ -1,3 +1,5 @@
+require("dotenv").config();
+
 var keys = require("./keys.js");
 var Spotify = require("node-spotify-api");
 var spotify = new Spotify(keys.spotify);
@@ -17,10 +19,13 @@ case 'do-what-it-says':
     console.log ('will go to spotify');
     break;
 }
-//this.findShow = function(show) {
-//   var URL = "http://api.tvmaze.com/singlesearch/shows?q=" + show;
-function findConcert(concert){
-   var URL ="https://rest.bandsintown.com/artists/" + arguments + "/events?app_id=codingbootcamp"
+
+function concert(inputs) {
+  var queryUrl =
+    "https://rest.bandsintown.com/artists/" +
+    inputs +
+    "/events?app_id=codingbootcamp";
+
 }
 function findSong(song){
   spotify.search({ type: 'track', query: arguments})
