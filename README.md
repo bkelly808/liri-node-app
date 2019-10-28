@@ -39,5 +39,3 @@ It should run spotify-this-song for "I Want it That Way," as follows the text in
 ## Technologies Used
 * Node.js
 * Javascript
-* Request (NPM Package)
-* Node-Spotify-API (NPM Package)
