@@ -60,7 +60,7 @@ switch(fCommand){
       movieThis(fTitle);
       break;
   case 'do-what-it-says':
-      console.log("We don't want any loops now...");
+      console.log("No loops");
       break;
   default:
       console.log("Unknown command: " + fCommand);
@@ -116,7 +116,7 @@ console.log("Please enter an artist");
 
 function spotifyThis(title){
 if(title === undefined){
-title = 'the sign ace of base';
+title = 'Single Ladies';
 }
 spotify.search({ type: 'track', query: title }, function(error, data){
 if(error){
